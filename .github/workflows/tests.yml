@@ -22,8 +22,3 @@ jobs:
             - name: Run tox
               run: |
                   tox -e py
-            - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@v2
-              with:
-                  flags: unittests
-                  verbose: true
